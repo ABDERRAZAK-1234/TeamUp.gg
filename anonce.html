@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style_annonce.css" />
     <title>TeamUp.gg</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 <body>
-    <!-- nav-bar -->
-     <nav>
+    <nav>
       <div class="logo">TeamUp<span>.gg</span></div>
       <ul class="nav-links">
         <li><a href="index.html">Accueil</a></li>
         <li><a href="comment.html">Comment ca marche</a></li>
         <li><a href="joueurs.html">Joueurs</a></li>
-        <li><a href="communaute.html">Communauté</a></li>
+        <li><a href="Communaute.html">Communauté</a></li>
+        <li><a href="anonce.html">Annonce</a></li>
       </ul>
       <div class="btns">
         <button class="button">Connexion</button>
       </div>
     </nav>
-     <!-- body -->
-    <section class="comment">
-        <h2 class="title">
-            Comment ca marche ?
-        </h2>
-        <div class="line"></div>
-        <div class="boxx">
-            <div class="box">
-                <div class="icons">
-                    <i class="fa-solid fa-user-group"></i>
-                </div>
-                <h3 class="title3">Trouve une équipe</h3>
-                <p class="paragraphs">Parcours des centaines de profils de
-                    joueurs et d'équipes qui cherchent des
-                    coéquipiers de ton niveau.</p>
+
+    <section>
+        <h1 class="title1">Créer un annonce</h1>
+        <div class="relative">
+            <img class="background_img_annonce" src="profils/battlefield-6.jpg" alt="">
+           <div class="transparant">
+            <div class="element">
+                <div class="titre_an">Jeu</div>
+                <input type="text" name="" id="inputat" placeholder="Sélectioner une jeu">
             </div>
-            <div class="box">
-                <div class="icons">
-                    <i class="fa-solid fa-user-plus"></i>   
-                </div>
-                <h3 class="title3">Publie ton profil</h3>
-                <p class="paragraphs">Crée ton profil de joueur avec tes stats,
-                    tes jeux favoris et ton niveau pour être
-                    visible par les équipes.</p>
+            <div class="element">
+                <div class="titre_an">Position</div>
+                <input type="text" name="" id="inputat" placeholder="Choisir une position">
             </div>
-            <div class="box">
-                <div class="icons">
-                    <i class="fa-solid fa-user-group"></i>
-                </div>
-                <h3 class="title3">Rejoins la communauté</h3>
-                <p class="paragraphs">Connecte-toi avec des milliers de
-                    joueurs passionnés et participe à des
-                    tournois communautaires.</p>
+            <div class="element">
+                <div class="titre_an">Niveau</div>
+                <input type="text" name="" id="inputat" placeholder="Sélectioner un niveau">
             </div>
+            <div class="element">
+                <div class="titre_an">Message</div>
+                <textarea name="" id="text_area" placeholder="Sélectioner une jeu"></textarea>
+            </div>
+            <div class="element">
+                <button type="submit" class="bottt">Envoyer</button>
+            </div>
+           </div> 
         </div>
+            
+            
+            
+        
     </section>
+
     <!-- Footer -->
     <footer id="footer">
       <div class="footer-content">
