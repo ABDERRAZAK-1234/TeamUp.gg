@@ -1,0 +1,2 @@
+----- link figma : https://www.figma.com/design/TuCFK2MtUDyo6DQ4JliYEj/Untitled?node-id=0-1&t=XslXZNeR3Q9I1Zhn-1
+----- link canva : https://www.canva.com/design/DAG2DnFeQnY/O7H9nJUIrXA6O2EUCpuuMA/edit?utm_content=DAG2DnFeQnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
